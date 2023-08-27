@@ -40,3 +40,14 @@ Note: the Dirt-Samples.json file here only uses a very small subset of the dirt 
 ## tidal-drum-machines
 
 <https://github.com/ritchse/tidal-drum-machines>
+
+## Other Sample Repos
+
+```plaintext
+await samples('github:yaxu/clean-breaks/main');
+await samples('github:yaxu/spicule/master');
+await samples('github:felixroos/estuary-samples/main');
+await samples('github:felixroos/samples/main');
+await samples('github:Bubobubobubobubo/Topos-Samples/main');
+await samples('github:emptyflash/samples/main');
+```
