@@ -48,6 +48,10 @@ await samples('github:yaxu/clean-breaks/main');
 await samples('github:yaxu/spicule/master');
 await samples('github:felixroos/estuary-samples/main');
 await samples('github:felixroos/samples/main');
-await samples('github:Bubobubobubobubo/Topos-Samples/main');
 await samples('github:emptyflash/samples/main');
+await samples('github:Bubobubobubobubo/Dough-Fox/main');
+await samples('github:Bubobubobubobubo/Dough-Amen/main');
+await samples('github:Bubobubobubobubo/Dough-Amiga/main');
+await samples('github:Bubobubobubobubo/Dough-Waveforms/main');
+await samples('github:Bubobubobubobubo/Dough-Samples/main');
 ```
