@@ -15,6 +15,7 @@ async function loadSamples() {
     samples(`${ds}/Dirt-Samples.json`),
     samples(`${ds}/EmuSP12.json`),
     samples(`${ds}/vcsl.json`),
+    samples(`${ds}/mridangam.json`),
   ]);
 }
 ```
