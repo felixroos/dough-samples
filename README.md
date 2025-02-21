@@ -62,30 +62,25 @@ await samples('github:Bubobubobubobubo/Dough-Samples/main');
 follow these commands to get your machine ready to use dough-samples offline:
 
 ```sh
-# make sure you're in a comfortable folder, then:
-git clone https://github.com/felixroos/dough-samples.git
+git clone --recurse-submodules https://github.com/felixroos/dough-samples.git
 cd dough-samples
-git clone https://github.com/felixroos/VCSL.git
-git clone https://github.com/tidalcycles/Dirt-Samples.git
-git clone https://github.com/geikha/tidal-drum-machines.git
-git clone https://github.com/yaxu/mrid.git
-git clone https://github.com/felixroos/VCSL.git
-npx serve -p 6543 --cors
+# make sure you have node.js (>=v20)
+npx serve -p 6543 --cors # serve dough-samples at http://localhost:6543
 ```
 
 load samples:
 
-```js
-const base = `http://localhost:6543`;
+```txt
+const base = 'http://localhost:6543';
 await Promise.all([
   samples(
-    `${base}/tidal-drum-machines.json`,
-    `${base}/tidal-drum-machines/machines/`
+    base + '/tidal-drum-machines.json',
+    base + '/tidal-drum-machines/machines/'
   ),
-  samples(`${base}/piano.json`, `${base}/piano/`),
-  samples(`${base}/Dirt-Samples.json`, `${base}/Dirt-Samples/`),
-  samples(`${base}/EmuSP12.json`, `${base}/tidal-drum-machines/machines/`),
-  samples(`${base}/vcsl.json`, `${base}/VCSL/`),
-  samples(`${base}/mridangam.json`, `${base}/mrid/`),
+  samples(base+'/piano.json', base+'/piano/'),
+  samples(base+'/Dirt-Samples.json', base+'/Dirt-Samples/'),
+  samples(base+'/EmuSP12.json', base+'/tidal-drum-machines/machines/'),
+  samples(base+'/vcsl.json', base+'/VCSL/'),
+  samples(base+'/mridangam.json', base+'/mrid/'),
 ]);
 ```
