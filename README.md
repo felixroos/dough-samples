@@ -84,3 +84,15 @@ await Promise.all([
   samples(base+'/mridangam.json', base+'/mrid/'),
 ]);
 ```
+
+if you want to add another repo to your offline samples, run:
+
+```sh
+git submodule add github:user/repo/main
+```
+
+then add this line to your sample setup:
+
+```js
+samples(base+'/repo/strudel.json', base+'/repo/')
+```
