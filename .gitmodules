@@ -1,0 +1,12 @@
+[submodule "Dirt-Samples"]
+	path = Dirt-Samples
+	url = https://github.com/tidalcycles/Dirt-Samples.git
+[submodule "mrid"]
+	path = mrid
+	url = https://github.com/yaxu/mrid.git
+[submodule "VCSL"]
+	path = VCSL
+	url = https://github.com/felixroos/VCSL.git
+[submodule "tidal-drum-machines"]
+	path = tidal-drum-machines
+	url = https://github.com/geikha/tidal-drum-machines.git
