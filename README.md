@@ -32,6 +32,12 @@ License: CC-by <http://creativecommons.org/licenses/by/3.0/> Author: Alexander H
 
 License: Creative Commons 0
 
+## mrid
+
+Mridingam samples
+
+License: CC-by-sa: <https://creativecommons.org/licenses/by-sa/4.0/> (c) Arthur Carabott 2022, Performer: Harishankar V Menon
+
 ## Dirt-Samples
 
 Note: the Dirt-Samples.json file here only uses a very small subset of the dirt samples
